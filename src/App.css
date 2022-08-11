@@ -1,0 +1,17 @@
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --cream: #fffffe;
+  
+}
+
+body{
+  font-family: 'Roboto Mono', monospace;
+  background-color: var(--cream);
+ height: 100%;
+}
+

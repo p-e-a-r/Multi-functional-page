@@ -1,0 +1,56 @@
+.newsletter-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 197, 89);
+    justify-content: center;
+    gap: 10em;
+    position: relative;
+}
+
+
+.newsletter-card{
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 2em;
+    height: 15em;
+    width: 30em;
+   text-align: center;
+   
+}
+
+.newsletter-card > * {
+    padding-top: 10px;
+}
+
+.input{
+    border-radius: 2rem;
+    padding: 10px;
+    border: 2px solid rgb(255, 197, 89);
+}
+
+.input:focus{
+    outline: none;
+}
+
+.sign-up-btn{
+    background-color: rgb(255, 197, 89);
+    border: none;
+    border-radius: 2em;
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+   cursor: pointer;
+   margin-left: 10px;
+}
+
+.error-text{
+    font-size: 0.7rem;
+    text-align: left;
+    margin-left: 9.5em;
+    color: red;
+}
+
+.get-news{
+    margin-bottom: 20px;
+}
