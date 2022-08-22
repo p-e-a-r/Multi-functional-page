@@ -7,6 +7,10 @@ import Newsletter from './Components/Newsletter';
 import Register from './Components/Register'
 import Login from './Components/Login';
 import Shop from './Components/Shop';
+import Learn from './Components/Learn';
+import Cart from './Components/Cart';
+
+
 
 function App() {
   return (
@@ -18,6 +22,8 @@ function App() {
           <Route path='register' element={<Register/>}/>
           <Route path='login' element={<Login/>}/>
           <Route path='shop' element={<Shop/>}/>
+          <Route path='learn' element={<Learn/>}/>
+          <Route path='cart' element={<Cart/>}/>
         </Routes>
       </div>
     </BrowserRouter>

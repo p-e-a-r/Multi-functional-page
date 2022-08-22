@@ -1,0 +1,10 @@
+.item-cont{
+    display: flex;
+    
+}
+
+
+.item-img{
+    height: 100px;
+    cursor: pointer;
+}

@@ -10,77 +10,86 @@ import Fender from '../Images/Fender.jpg'
 
 
 
-export const items = [
-    {
-        category: "Instruments",
-            products: [ {
-                id: 1,
+const products = [
+    
+        
+             {
+                category: "Instruments",
+                _id: 1,
                 itemName:"Gibson",
                 img:{Gibson},
                 price:"$2000",
                 description: "Most overpriced guitar ever. Get it now"
             }, 
             {
-                id: 2,
+                category: "Instruments",
+                _id: 2,
                 itemName:"Fender",
                 img:{Fender},
-                price:"&1600",
+                price:"$1600",
                 description: "Dad blues era icon. A classic."
             },
             {
-                id: 3,
+                category: "Instruments",
+                _id: 3,
                 itemName:"Ibanez",
                 img:{Ibanez},
                 price:"$700",
                 description: "New generation doesn't know real music. Make your parents angry now!"
-            } 
-        ],
-        category : "Music",
-            products: [ {
-                id: 4,
+            } ,
+        
+        
+        {
+                category : "Music",
+                _id: 4,
                 itemName:"Mark Knopfler",
                 img:{Mark},
                 price:"$15",
                 description: "Money for nothing and your chicks for free"
             }, 
             {
-                id: 5,
+                category : "Music",
+                _id: 5,
                 itemName:"Miley Cyrus",
                 img:{Miley},
                 price:"$20",
                 description: "That album hit me like a wrecking ball! - The Rolling Stone"
             },
             {
-                id: 6,
+                category : "Music",
+                _id: 6,
                 itemName:"Dawid Podsiadło",
                 img:{Dawid},
                 price:"$10",
                 description: "Top 10 szant wszechczasów"
-            } 
-        ],
-        category: "Merch",
-            products: [ {
-                id: 7,
+            } ,
+        
+        
+            {
+                category: "Merch",
+                _id: 7,
                 itemName:"T-shirt",
                 img:{Tshirt},
                 price:"$40",
                 description: "Best fitting Loprem ipsum homo sum emomum"
             }, 
             {
-                id: 8,
+                category: "Merch",
+                _id: 8,
                 itemName:"Bag",
                 img:{Bag},
                 price:"$20",
                 description: "Fit all groceries and more"
             },
             {
-                id: 9,
+                category: "Merch",
+                _id: 9,
                 itemName:"Jumper",
                 img:{Jumper},
                 price:"$70",
-                description: "Alpaca linen keeps you worm"
+                description: "Alpaca linen keeps you warm"
             } 
-        ],
-    }
+    
 ]
 
+export default  products
